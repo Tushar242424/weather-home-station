@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"  # Adjust this based on your build process
+  publish = "."  # Assumes your built assets are in the root directory
+
+[[redirects]]
+  from = "/*"
+  to = "/app.js"
+  status = 200
